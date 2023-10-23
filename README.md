@@ -52,6 +52,9 @@ SSH encrypts all communication, ensuring the security and confidentiality of dat
 
 Example: Securely connecting to a remote server.
 
+```bash
+ssh username@remote_server
+
 ### 2. Authentication
 
 SSH supports various authentication methods, including public-key cryptography and multi-factor authentication.

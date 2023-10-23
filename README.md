@@ -79,7 +79,7 @@ ssh -L local_port:remote_server:remote_port username@remote_server
 
 SSH can compress data to improve performance and reduce bandwidth usage.
 
-Example: Enabling compression when connecting to a remote server.
+#### Example: Enabling compression when connecting to a remote server.
 ```bash
 ssh -C username@remote_server
 ```
@@ -88,7 +88,7 @@ ssh -C username@remote_server
 
 SSH supports X11 forwarding, enabling the execution of graphical applications on remote servers.
 
-Example: Running graphical applications on a remote server and displaying them locally.
+#### Example: Running graphical applications on a remote server and displaying them locally.
 ```bash
 ssh -X username@remote_server
 ```
@@ -97,7 +97,7 @@ ssh -X username@remote_server
 
 SSH provides secure file transfer protocols, SFTP and SCP, for securely transferring files between machines.
 
-Example: Using SCP to copy files to and from a remote server.
+#### Example: Using SCP to copy files to and from a remote server.
 ```bash
 scp local_file username@remote_server:remote_directory
 ```

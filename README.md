@@ -50,8 +50,7 @@ SSH (Secure Shell) is a network protocol used to securely access and manage remo
 
 SSH encrypts all communication, ensuring the security and confidentiality of data in transit.
 
-Example: Securely connecting to a remote server.
-
+#### Example: Securely connecting to a remote server
 ```bash
 ssh username@remote_server
 ```
@@ -60,7 +59,7 @@ ssh username@remote_server
 
 SSH supports various authentication methods, including public-key cryptography and multi-factor authentication.
 
-Example: Using public-key authentication to log in without a password.
+#### Example: Using public-key authentication to log in without a password.
 ```bash
 ssh -i path/to/private_key username@remote_server
 
@@ -70,7 +69,7 @@ ssh -i path/to/private_key username@remote_server
 
 SSH allows secure traffic forwarding between machines, useful for accessing resources not directly accessible from the Internet.
 
-Example: Forwarding a local port to access a remote web server.
+#### Example: Forwarding a local port to access a remote web server.
 ```bash
 ssh -L local_port:remote_server:remote_port username@remote_server
 ```

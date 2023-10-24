@@ -105,10 +105,6 @@ scp local_file username@remote_server:remote_directory
 
 Contributions are welcome. Feel free to open issues or pull requests to enhance this README or provide additional examples.
 
-## License
-
-This repository and its content are licensed under the MIT License.
-
 # SSH（セキュア シェル）
 
 SSH（セキュア シェル）は、インターネットなどの安全でないネットワークを介して、2つのシステム間で安全な通信を可能にするネットワークプロトコルです。SSHはクライアントとサーバーのアーキテクチャに基づいており、接続を開始するシステムがクライアントで、クライアントが管理または対話するリモートシステムがサーバーです。
